@@ -31,4 +31,4 @@
 *pandas*, *numpy*, *scipy*, *matplotlib*, *seaborn*, *re*, *os*, *time*, *phik*, *scikit-learn*, *lightgbm*
 
 ## Результат:
-Мы сравнили результаты работы моделей LGBMRegressor(), DecisionTreeRegressor(), KNeighborsRegressor() по трём параметрам, важным для заказчика, и в результате в качестве оптимальной модели выбрали DecisionTreeRegressor() с гиперпараметрами .
+Мы сравнили результаты работы моделей LGBMRegressor(), DecisionTreeRegressor(), KNeighborsRegressor() по трём параметрам, важным для заказчика, и в результате в качестве оптимальной модели для определения стоимости автомобиля выбрали DecisionTreeRegressor() с гиперпараметрами max_depth=25, min_samples_leaf=18.
